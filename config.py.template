@@ -1,0 +1,16 @@
+# coding: utf-8
+
+
+# for TG bot
+BOT_TOKEN = ''
+
+OWNER_ID = 000000000
+ENABLED_CHATS = set((
+    -100000000000,     # enable in certain groups
+))
+
+
+# for API server
+PAGE_SIZE = 10
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
